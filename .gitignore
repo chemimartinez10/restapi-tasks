@@ -1,0 +1,6 @@
+#Environment variables
+.env
+
+#Node modules and Distribution build
+node_modules
+dist

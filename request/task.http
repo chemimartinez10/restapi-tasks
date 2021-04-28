@@ -1,0 +1,26 @@
+###
+GET http://localhost:3000/api/tasks?title=app&size=10
+
+###
+GET http://localhost:3000/api/tasks/done
+
+###
+GET http://localhost:3000/api/tasks/608850124ed91922785ae59c
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "done": true
+}
+###
+PUT http://localhost:3000/api/tasks/608850124ed91922785ae59c
+Content-Type: application/json
+
+{
+    "title": "Trabajo loco"
+}
+
+###
+DELETE http://localhost:3000/api/tasks/60885269d1d17e3310bf051d
